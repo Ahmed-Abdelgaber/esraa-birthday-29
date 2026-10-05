@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#181714" />
+    <meta name="description" content="حكاية صغيرة، وذكريات كتير، وكل سنة وإنتِ أحلى حاجة حصلتلي." />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>٢٥ — الموسم الخامس · حكاية ليكي</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="العودة للبداية" dir="ltr"><span>25</span><span class="wordmark-line"></span><span class="utility">SEASON<br />FIVE</span></a>
+      <span class="dedication">إلى حبيبتي، <span>في يومها.</span></span>
+      <span class="edition utility" dir="ltr">A BIRTHDAY ORIGINAL</span>
+    </header>
+
+    <main id="main">
+      <section id="lobby" class="lobby" aria-labelledby="lobby-title">
+        <div class="invitation-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <span class="art-year" dir="ltr">25</span>
+          <figure class="cover-photo"><img id="cover-image" src="./images/RECENT_PORTRAIT.svg" alt="" width="720" height="900" /><figcaption><span>أجمل حكاية</span><span dir="ltr">TO BE CONTINUED…</span></figcaption></figure>
+          <div class="case-stamp" dir="ltr">THE MISSING YEARS<span>A LOVE STORY IN DISGUISE</span></div>
+          <span class="art-footnote utility" dir="ltr">FROM THE PERSONAL ARCHIVES</span>
+        </div>
+        <div class="invitation-copy">
+          <p class="eyebrow"><span class="tiny-star">✦</span> فيلم قصير. حب طويل.</p>
+          <h1 id="lobby-title">في مثل هذا اليوم…<br />بدأت <em>أجمل حكاية.</em></h1>
+          <p class="intro">شوية ذكريات، حبة هزار، وحاجة واحدة<br class="desktop-break" /> عمرها ما بتتغيّر… حبي ليكي.</p>
+          <button id="start" class="primary-button"><span class="play-icon" aria-hidden="true">▶</span><span>ابدئي الحكاية</span><span class="button-line" aria-hidden="true"></span><span class="utility" dir="ltr">PLAY</span></button>
+          <div class="start-options"><button id="lobby-sound" class="text-button" aria-pressed="true"><span aria-hidden="true">♪</span><span>بالموسيقى والصوت</span></button><span class="option-divider"></span><span id="duration-label">حوالي دقيقتين ونص</span></div>
+          <p class="personal-note">من جوزك، بكل الحب <span aria-hidden="true">♡</span></p>
+        </div>
+      </section>
+
+      <section id="experience" class="experience" aria-label="حكاية عيد الميلاد" hidden>
+        <div class="film-topline"><span id="act-label">الفصل الأول · البداية</span><span class="utility" dir="ltr"><span class="record-light" aria-hidden="true"></span> <span id="scene-label">01 / 14</span></span></div>
+        <div id="cinema" class="cinema" data-theme="warm">
+          <div id="stage" class="stage"></div>
+          <div id="caption-wrap" class="caption-wrap"><p id="caption" dir="rtl"></p></div>
+          <span class="frame-corner corner-tl" aria-hidden="true"></span><span class="frame-corner corner-br" aria-hidden="true"></span>
+          <div id="end-card" class="end-card" hidden>
+            <p class="eyebrow">النهاية… لحد عيد الميلاد الجاي</p><h2>كل سنة وإنتِ<br /><em>أحلى حكاية.</em></h2><p>ومهما الرقم اتغيّر، أنا كل سنة بحبك أكتر.</p><button id="replay" class="primary-button"><span aria-hidden="true">↺</span> نعيش الحكاية تاني</button>
+          </div>
+        </div>
+        <div class="player-controls" dir="ltr">
+          <div class="timeline"><div id="segments" class="segments" aria-hidden="true"></div><label class="sr-only" for="seek">توقيت الحكاية</label><input id="seek" type="range" min="0" max="154" step="0.1" value="0" aria-valuetext="البداية" /></div>
+          <div class="control-row"><div class="transport"><button id="toggle-play" class="icon-button" aria-label="إيقاف مؤقت" title="إيقاف مؤقت">Ⅱ</button><button id="restart" class="icon-button" aria-label="إعادة من البداية" title="إعادة من البداية">↺</button><span class="time-readout utility"><span id="elapsed">0:00</span><span class="time-slash">/</span><span id="total-time">2:34</span></span></div><div class="preferences"><button id="captions" class="small-button" aria-pressed="true" title="إظهار أو إخفاء الكلام المكتوب">الكلام المكتوب</button><button id="sound" class="icon-button" aria-label="كتم الصوت" aria-pressed="false" title="كتم الصوت">♪</button><button id="chapters" class="small-button" aria-haspopup="dialog">المشاهد <span aria-hidden="true">☷</span></button><button id="fullscreen" class="icon-button" aria-label="ملء الشاشة" title="ملء الشاشة">⛶</button></div></div>
+        </div>
+        <p class="player-note" id="player-note">خدي راحتك… تقدري توقفي الحكاية وترجعي لأي لحظة.</p>
+      </section>
+      <noscript><p class="noscript-note">فعّلي JavaScript في المتصفح عشان تشغّلي الحكاية.</p></noscript>
+    </main>
+    <footer class="page-footer"><span class="utility" dir="ltr">WRITTEN WITH LOVE. SOME FACTS DISPUTED.</span><span>كل سنة وإنتِ حبيبتي <span aria-hidden="true">♡</span></span></footer>
+    <p id="announcement" class="sr-only" aria-live="polite" role="status"></p>
+    <dialog id="chapter-dialog" class="chapter-dialog" aria-labelledby="chapter-title"><div class="dialog-header"><div><p class="eyebrow">من أول الحكاية لآخرها</p><h2 id="chapter-title">اختاري لحظة</h2></div><button id="close-chapters" class="icon-button" aria-label="إغلاق المشاهد" autofocus>×</button></div><nav id="chapter-list" aria-label="مشاهد الحكاية"></nav><p class="dialog-note">اختيار مشهد ينقلك ليه، وتقدري تكمّلي من هناك.</p></dialog>
+  </body>
+</html>
